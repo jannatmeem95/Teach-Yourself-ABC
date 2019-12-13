@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLUT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLUT32.DLL" />
+    <None Include="alp_z.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_y.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_v.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_u.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_t.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_s.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_r.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_q.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_p.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_o.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_n.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_m.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_l.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_k.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_j.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_i.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_h.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_g.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_f.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_e.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_d.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_c.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_b.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_a.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="a_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="c_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="b_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="d_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="e_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="f_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="g_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="h_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="k_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="l_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="m_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="n_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="n_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="n_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="n_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="n_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="n_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="n_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="o_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="p_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="q_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="q_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="q_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="q_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="q_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="q_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="q_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="r_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="t_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="u_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="v_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="w_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="x_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="x_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="y_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="y_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="y_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="y_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="y_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="z_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="z_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="z_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="z_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="j_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="u_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cross.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="right.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="s_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="quiz.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="red_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="alp_w.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="exit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="start image.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="learn.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="right.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num101.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num91.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num81.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num71.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num61.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num51.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num41.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num31.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num21.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="num11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GLUT32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

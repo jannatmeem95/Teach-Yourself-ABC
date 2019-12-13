@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{83BE919B-FE26-4BEB-9BAC-BE5F2151F402}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>teach_project</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="GLUT.H" />
+    <ClInclude Include="iGraphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.bmp" />
+    <None Include="10.bmp" />
+    <None Include="2.bmp" />
+    <None Include="3.bmp" />
+    <None Include="4.bmp" />
+    <None Include="5.bmp" />
+    <None Include="6.bmp" />
+    <None Include="7.bmp" />
+    <None Include="8.bmp" />
+    <None Include="9.bmp" />
+    <None Include="alp_a.bmp" />
+    <None Include="alp_b.bmp" />
+    <None Include="alp_c.bmp" />
+    <None Include="alp_d.bmp" />
+    <None Include="alp_e.bmp" />
+    <None Include="alp_f.bmp" />
+    <None Include="alp_g.bmp" />
+    <None Include="alp_h.bmp" />
+    <None Include="alp_i.bmp" />
+    <None Include="alp_j.bmp" />
+    <None Include="alp_k.bmp" />
+    <None Include="alp_l.bmp" />
+    <None Include="alp_m.bmp" />
+    <None Include="alp_n.bmp" />
+    <None Include="alp_o.bmp" />
+    <None Include="alp_p.bmp" />
+    <None Include="alp_q.bmp" />
+    <None Include="alp_r.bmp" />
+    <None Include="alp_s.bmp" />
+    <None Include="alp_t.bmp" />
+    <None Include="alp_u.bmp" />
+    <None Include="alp_v.bmp" />
+    <None Include="alp_w.bmp" />
+    <None Include="alp_x.bmp" />
+    <None Include="alp_y.bmp" />
+    <None Include="alp_z.bmp" />
+    <None Include="a_1.bmp" />
+    <None Include="a_2.bmp" />
+    <None Include="a_3.bmp" />
+    <None Include="a_4.bmp" />
+    <None Include="a_5.bmp" />
+    <None Include="a_6.bmp" />
+    <None Include="a_7.bmp" />
+    <None Include="a_8.bmp" />
+    <None Include="b_1.bmp" />
+    <None Include="b_10.bmp" />
+    <None Include="b_2.bmp" />
+    <None Include="b_3.bmp" />
+    <None Include="b_4.bmp" />
+    <None Include="b_5.bmp" />
+    <None Include="b_6.bmp" />
+    <None Include="b_7.bmp" />
+    <None Include="b_8.bmp" />
+    <None Include="b_9.bmp" />
+    <None Include="cross.bmp" />
+    <None Include="c_1.bmp" />
+    <None Include="c_2.bmp" />
+    <None Include="c_3.bmp" />
+    <None Include="c_4.bmp" />
+    <None Include="c_5.bmp" />
+    <None Include="c_6.bmp" />
+    <None Include="c_7.bmp" />
+    <None Include="c_8.bmp" />
+    <None Include="d_1.bmp" />
+    <None Include="d_10.bmp" />
+    <None Include="d_2.bmp" />
+    <None Include="d_3.bmp" />
+    <None Include="d_4.bmp" />
+    <None Include="d_5.bmp" />
+    <None Include="d_6.bmp" />
+    <None Include="d_7.bmp" />
+    <None Include="d_8.bmp" />
+    <None Include="d_9.bmp" />
+    <None Include="exit.bmp" />
+    <None Include="e_1.bmp" />
+    <None Include="e_2.bmp" />
+    <None Include="e_3.bmp" />
+    <None Include="e_4.bmp" />
+    <None Include="e_5.bmp" />
+    <None Include="e_6.bmp" />
+    <None Include="e_7.bmp" />
+    <None Include="e_8.bmp" />
+    <None Include="f_1.bmp" />
+    <None Include="f_2.bmp" />
+    <None Include="f_3.bmp" />
+    <None Include="f_4.bmp" />
+    <None Include="f_5.bmp" />
+    <None Include="f_6.bmp" />
+    <None Include="f_7.bmp" />
+    <None Include="f_8.bmp" />
+    <None Include="f_9.bmp" />
+    <None Include="GLUT32.DLL" />
+    <None Include="g_1.bmp" />
+    <None Include="g_10.bmp" />
+    <None Include="g_11.bmp" />
+    <None Include="g_2.bmp" />
+    <None Include="g_3.bmp" />
+    <None Include="g_4.bmp" />
+    <None Include="g_5.bmp" />
+    <None Include="g_6.bmp" />
+    <None Include="g_7.bmp" />
+    <None Include="g_8.bmp" />
+    <None Include="g_9.bmp" />
+    <None Include="h_1.bmp" />
+    <None Include="h_2.bmp" />
+    <None Include="h_3.bmp" />
+    <None Include="h_4.bmp" />
+    <None Include="h_5.bmp" />
+    <None Include="h_6.bmp" />
+    <None Include="h_7.bmp" />
+    <None Include="h_8.bmp" />
+    <None Include="i_1.bmp" />
+    <None Include="i_2.bmp" />
+    <None Include="i_3.bmp" />
+    <None Include="i_4.bmp" />
+    <None Include="i_5.bmp" />
+    <None Include="i_6.bmp" />
+    <None Include="i_7.bmp" />
+    <None Include="i_8.bmp" />
+    <None Include="j_1.bmp" />
+    <None Include="j_2.bmp" />
+    <None Include="j_3.bmp" />
+    <None Include="j_4.bmp" />
+    <None Include="j_5.bmp" />
+    <None Include="j_6.bmp" />
+    <None Include="j_7.bmp" />
+    <None Include="j_8.bmp" />
+    <None Include="k_1.bmp" />
+    <None Include="k_2.bmp" />
+    <None Include="k_3.bmp" />
+    <None Include="k_4.bmp" />
+    <None Include="k_5.bmp" />
+    <None Include="k_6.bmp" />
+    <None Include="k_7.bmp" />
+    <None Include="k_8.bmp" />
+    <None Include="learn.bmp" />
+    <None Include="l_1.bmp" />
+    <None Include="l_2.bmp" />
+    <None Include="l_3.bmp" />
+    <None Include="l_4.bmp" />
+    <None Include="l_5.bmp" />
+    <None Include="l_6.bmp" />
+    <None Include="l_7.bmp" />
+    <None Include="l_8.bmp" />
+    <None Include="l_9.bmp" />
+    <None Include="m_1.bmp" />
+    <None Include="m_2.bmp" />
+    <None Include="m_3.bmp" />
+    <None Include="m_4.bmp" />
+    <None Include="m_5.bmp" />
+    <None Include="m_6.bmp" />
+    <None Include="m_7.bmp" />
+    <None Include="m_8.bmp" />
+    <None Include="m_9.bmp" />
+    <None Include="num1.bmp" />
+    <None Include="num10.bmp" />
+    <None Include="num101.bmp" />
+    <None Include="num11.bmp" />
+    <None Include="num2.bmp" />
+    <None Include="num21.bmp" />
+    <None Include="num3.bmp" />
+    <None Include="num31.bmp" />
+    <None Include="num4.bmp" />
+    <None Include="num41.bmp" />
+    <None Include="num5.bmp" />
+    <None Include="num51.bmp" />
+    <None Include="num6.bmp" />
+    <None Include="num61.bmp" />
+    <None Include="num7.bmp" />
+    <None Include="num71.bmp" />
+    <None Include="num8.bmp" />
+    <None Include="num81.bmp" />
+    <None Include="num9.bmp" />
+    <None Include="num91.bmp" />
+    <None Include="num_1.bmp" />
+    <None Include="num_10.bmp" />
+    <None Include="num_2.bmp" />
+    <None Include="num_3.bmp" />
+    <None Include="num_4.bmp" />
+    <None Include="num_5.bmp" />
+    <None Include="num_6.bmp" />
+    <None Include="num_7.bmp" />
+    <None Include="num_8.bmp" />
+    <None Include="num_9.bmp" />
+    <None Include="n_1.bmp" />
+    <None Include="n_2.bmp" />
+    <None Include="n_3.bmp" />
+    <None Include="n_4.bmp" />
+    <None Include="n_5.bmp" />
+    <None Include="n_6.bmp" />
+    <None Include="n_7.bmp" />
+    <None Include="o_1.bmp" />
+    <None Include="o_10.bmp" />
+    <None Include="o_2.bmp" />
+    <None Include="o_3.bmp" />
+    <None Include="o_4.bmp" />
+    <None Include="o_5.bmp" />
+    <None Include="o_6.bmp" />
+    <None Include="o_7.bmp" />
+    <None Include="o_8.bmp" />
+    <None Include="o_9.bmp" />
+    <None Include="p_1.bmp" />
+    <None Include="p_2.bmp" />
+    <None Include="p_3.bmp" />
+    <None Include="p_4.bmp" />
+    <None Include="p_5.bmp" />
+    <None Include="p_6.bmp" />
+    <None Include="p_7.bmp" />
+    <None Include="p_8.bmp" />
+    <None Include="p_9.bmp" />
+    <None Include="quiz.bmp" />
+    <None Include="q_1.bmp" />
+    <None Include="q_2.bmp" />
+    <None Include="q_3.bmp" />
+    <None Include="q_4.bmp" />
+    <None Include="q_5.bmp" />
+    <None Include="q_6.bmp" />
+    <None Include="q_7.bmp" />
+    <None Include="red.bmp" />
+    <None Include="red_1.bmp" />
+    <None Include="right.bmp" />
+    <None Include="right.wav" />
+    <None Include="r_1.bmp" />
+    <None Include="r_10.bmp" />
+    <None Include="r_11.bmp" />
+    <None Include="r_2.bmp" />
+    <None Include="r_3.bmp" />
+    <None Include="r_4.bmp" />
+    <None Include="r_5.bmp" />
+    <None Include="r_6.bmp" />
+    <None Include="r_7.bmp" />
+    <None Include="r_8.bmp" />
+    <None Include="r_9.bmp" />
+    <None Include="start image.bmp" />
+    <None Include="s_1.bmp" />
+    <None Include="s_10.bmp" />
+    <None Include="s_9.bmp" />
+    <None Include="s_2.bmp" />
+    <None Include="s_3.bmp" />
+    <None Include="s_4.bmp" />
+    <None Include="s_5.bmp" />
+    <None Include="s_6.bmp" />
+    <None Include="s_7.bmp" />
+    <None Include="s_8.bmp" />
+    <None Include="t_1.bmp" />
+    <None Include="t_10.bmp" />
+    <None Include="t_2.bmp" />
+    <None Include="t_3.bmp" />
+    <None Include="t_4.bmp" />
+    <None Include="t_5.bmp" />
+    <None Include="t_6.bmp" />
+    <None Include="t_7.bmp" />
+    <None Include="t_8.bmp" />
+    <None Include="t_9.bmp" />
+    <None Include="u_1.bmp" />
+    <None Include="u_2.bmp" />
+    <None Include="v_1.bmp" />
+    <None Include="v_2.bmp" />
+    <None Include="v_3.bmp" />
+    <None Include="w_1.bmp" />
+    <None Include="w_2.bmp" />
+    <None Include="w_3.bmp" />
+    <None Include="w_4.bmp" />
+    <None Include="w_5.bmp" />
+    <None Include="w_6.bmp" />
+    <None Include="w_7.bmp" />
+    <None Include="w_8.bmp" />
+    <None Include="x_1.bmp" />
+    <None Include="x_2.bmp" />
+    <None Include="y_1.bmp" />
+    <None Include="y_2.bmp" />
+    <None Include="y_3.bmp" />
+    <None Include="y_4.bmp" />
+    <None Include="y_5.bmp" />
+    <None Include="z_1.bmp" />
+    <None Include="z_2.bmp" />
+    <None Include="z_3.bmp" />
+    <None Include="z_4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GLUT32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
